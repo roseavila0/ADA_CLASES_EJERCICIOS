@@ -12,7 +12,7 @@ let porcentajeDescuento = parseFloat (prompt('Ingrese el porcentaje de descuento
 let montoDescuento = precioOriginal * (porcentajeDescuento / 100);
 let precioFinal= precioOriginal - montoDescuento;
 
-console.log(`El monto del descuento es: $${montoDescuento.toFixed(2)}`);
+console.log(`El monto del descuento es: $${montoDescuento.toFixed(2)});
 console.log(`El precio final es: $${precioFinal.toFixed(2)}`);
 
 
