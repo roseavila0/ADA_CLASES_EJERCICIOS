@@ -11,15 +11,15 @@
 let edades = [10, 15, 35, 65, 12, 59];
 
 
-function cuantasPersonasIngresan (arreglo) {
-    let suma;
+function cuantasPersonasIngresan (registroEdades) {
+    let suma=0;
     
-    for (let i=0 ; i<= edades.length ; i++){
-        if (edades[i]>=12 && edades[1]<60){
+    for (let i=0 ; i<registroEdades.length ; i++){
+        if (registroEdades[i]>=12 && registroEdades[i]<60){
         suma ++;
     } 
-}return suma;
-};
+} return suma;
+}
+
 
 console.log("El numero de personas que cumplen con los requisitos es: " + cuantasPersonasIngresan(edades));
- 
