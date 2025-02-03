@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Disco duro adata 1tb",
+    "cantidad": 6
+  },
+  {
+    "id": 2,
+    "nombre": "auriculares",
+    "cantidad": 2
+  },
+  {
+    "id": 3,
+    "nombre": "monitor",
+    "cantidad": 4
+  },
+  {
+    "id": 4,
+    "nombre": "micro sd 256gb",
+    "cantidad": 8
+  }
+]

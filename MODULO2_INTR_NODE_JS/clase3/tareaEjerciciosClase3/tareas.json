@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Resolver todos los ejercicios de la tarea de node js",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "descripcion": "Repasar conceptos de las clases",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "descripcion": "actualizar programas",
+    "completada": false
+  },
+  {
+    "id": 4,
+    "descripcion": "actualizar programas",
+    "completada": false
+  }
+]

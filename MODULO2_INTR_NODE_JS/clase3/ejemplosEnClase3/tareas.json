@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Comprar leche",
+    "completada": true
+  },
+  {
+    "id": 2,
+    "descripcion": "Pagar facturas",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "descripcion": "Enviar cv",
+    "completada": true
+  },
+  {
+    "id": 4,
+    "descripcion": "laburar",
+    "completada": false
+  }
+]

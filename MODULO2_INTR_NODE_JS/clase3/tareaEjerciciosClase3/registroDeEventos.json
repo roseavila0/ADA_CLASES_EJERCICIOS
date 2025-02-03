@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Rock Sinfónico",
+    "fecha": "2025-02-26",
+    "lugar": "Parque Forestal"
+  },
+  {
+    "id": 2,
+    "nombre": "Exposición de Arte Audiovisual - go home ",
+    "fecha": "2025-10-25",
+    "lugar": "Maac"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Estudiar Node.js",
+    "estado": "completada"
+  },
+  {
+    "id": 2,
+    "descripcion": "Conseguir bastidor",
+    "estado": "pendiente"
+  },
+  {
+    "id": 3,
+    "descripcion": "Armar propuesta  convocatoria",
+    "estado": "completada"
+  },
+  {
+    "id": 4,
+    "descripcion": "Armar presupuesto y cronograma",
+    "estado": "pendiente"
+  },
+  {
+    "id": 5,
+    "descripcion": "armar portafolio",
+    "estado": "completada"
+  },
+  {
+    "id": 6,
+    "descripcion": "Estudiar Node.js",
+    "estado": "pendiente"
+  },
+  {
+    "id": 7,
+    "descripcion": "Conseguir bastidor",
+    "estado": "pendiente"
+  },
+  {
+    "id": 8,
+    "descripcion": "Armar propuesta  convocatoria",
+    "estado": "pendiente"
+  },
+  {
+    "id": 9,
+    "descripcion": "Armar presupuesto y cronograma",
+    "estado": "pendiente"
+  },
+  {
+    "id": 10,
+    "descripcion": "armar portafolio",
+    "estado": "pendiente"
+  },
+  {
+    "id": 11,
+    "descripcion": "Estudiar Node.js",
+    "estado": "pendiente"
+  },
+  {
+    "id": 12,
+    "descripcion": "Conseguir bastidor",
+    "estado": "pendiente"
+  },
+  {
+    "id": 13,
+    "descripcion": "Armar propuesta  convocatoria",
+    "estado": "pendiente"
+  },
+  {
+    "id": 14,
+    "descripcion": "Armar presupuesto y cronograma",
+    "estado": "pendiente"
+  },
+  {
+    "id": 15,
+    "descripcion": "armar portafolio",
+    "estado": "pendiente"
+  }
+]
