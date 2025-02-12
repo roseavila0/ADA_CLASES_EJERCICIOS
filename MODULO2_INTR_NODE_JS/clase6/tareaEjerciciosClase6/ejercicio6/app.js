@@ -31,7 +31,7 @@ rl.on("line", (input) => {
         console.log("chao, bye bye...");
         rl.close();
     } else {
-        console.log(`tu alabra convertida en mayúscula: ${input.toUpperCase()}`);
+        console.log(`tu palabra convertida en mayúscula: ${input.toUpperCase()}`);
         rl.prompt(); 
     }
 });
