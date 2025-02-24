@@ -1,0 +1,5 @@
+[
+    {"id": 1, "nombre": "El quijote de la mancha", "anio": 1605},
+    {"id": 2, "nombre": "El extranjero",  "anio": 1942},
+    {"id": 3, "nombre": "El lobo estepario", "anio": 1927}
+]
