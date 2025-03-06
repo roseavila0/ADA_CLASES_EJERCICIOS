@@ -1,0 +1,17 @@
+[
+  {
+    "vehiculo": "auto",
+    "marca": "Toyota",
+    "modelo": "Corolla"
+  },
+  {
+    "vehiculo": "moto",
+    "marca": "Haojue",
+    "modelo": "DR 160s"
+  },
+  {
+    "vehiculo": "auto",
+    "marca": "Chevrolet",
+    "modelo": "Cruze"
+  }
+]
