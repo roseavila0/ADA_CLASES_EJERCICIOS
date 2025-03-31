@@ -1,4 +1,4 @@
-const formatVehicleResponse = (vehicle)=>{
+const formatVehicleResponse = (vehicle) =>{
     if(!vehicle){
         return JSON.stringify({
             status: "error", 

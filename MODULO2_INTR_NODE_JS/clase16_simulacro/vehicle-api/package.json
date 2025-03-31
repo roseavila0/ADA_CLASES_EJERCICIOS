@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js" 
+    "start": "server.js" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "PROYECTO DE SIMULACRO",
+  "description": "PROYECTO DE SIMULACRO - API para gestionar un sistema de registro de vehículos utilizano un servidor TCP",
   "dependencies": {
     "readline-sync": "^1.4.10",
     "uuid": "^11.1.0"

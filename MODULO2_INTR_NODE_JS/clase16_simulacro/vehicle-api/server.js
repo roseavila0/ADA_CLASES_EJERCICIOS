@@ -1,5 +1,4 @@
 const net = require('net');
-const fs = require('fs');
 const {showVehicles, addVehicle} = require('./controllers/constroller');  // Asegúrate de que la ruta sea correcta
 
 const port = 8080;
