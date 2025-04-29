@@ -16,3 +16,15 @@ let saludo = "SALUDOS";
 for (let letra of saludo) {
     console.log(`Ejemplo con string: ${letra}`);
 }
+
+
+
+
+
+
+
+
+
+
+
+
