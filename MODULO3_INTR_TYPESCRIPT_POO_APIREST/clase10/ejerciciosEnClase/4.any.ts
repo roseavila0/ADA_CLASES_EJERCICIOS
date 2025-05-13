@@ -1,3 +1,5 @@
+//✅ Devuelve la primera que se resuelva exitosamente. ❌ Si todas fallan, lanza un error.
+
 export const promesa1 = Promise.reject("Error en promesa 1")
 
 const promesa2 =  new Promise ((resolve, reject) => {

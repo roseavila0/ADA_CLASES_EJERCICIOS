@@ -1,10 +1,12 @@
+//✅ Espera que todas terminen, sin importar si fallan o no.
+
 export const promesa1  =  Promise.reject("Error en promesa 1")
 
 const promesa2 = new Promise((resolve,reject) => {
     setTimeout (resolve, 100, "Hola")
 })
 
-const promesa3= new Promise ((resolve, reject) => {
+const promesa3 = new Promise ((resolve, reject) => {
     setTimeout(resolve, 500, "Chicas")
 })
 

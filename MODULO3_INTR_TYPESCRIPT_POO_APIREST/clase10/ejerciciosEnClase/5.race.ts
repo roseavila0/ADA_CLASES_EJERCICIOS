@@ -1,3 +1,5 @@
+//Promise.race([...]) Devuelve la primera promesa que se complete, ya sea resuelta o rechazada.
+
 export const promesa1 =  new Promise((resolve) => {
     setTimeout(resolve, 100, "Promesa 1 completada")
 })

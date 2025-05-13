@@ -1,3 +1,4 @@
+//Crea una promesa que ya está rechazada.
 const error = "Algo salio mal"
 
 export const miPromesa = Promise.reject(error)

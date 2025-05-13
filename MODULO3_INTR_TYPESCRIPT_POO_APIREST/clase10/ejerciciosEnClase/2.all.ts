@@ -1,9 +1,13 @@
+//✅ Espera que todas se resuelvan. ❌ Si una falla, se rechaza todo.
+
+
+
 //promesas de ejemplo
 const promesa1 =  Promise.resolve(3)
 
 //crea una promsa que se resuleve inmediatamente con valor 3
 
-const promesa2 =  new Promise ((resolve, reject)=>{
+const promesa2 =  new Promise ((resolve, reject) =>{
     //crea una promesa que se resuelve despues de 100ms
     setTimeout(resolve,100,"Hola")
 })

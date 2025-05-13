@@ -13,3 +13,78 @@ segundos).
 Opcional: Modifica el comportamiento para que si alguna consulta falla, se
 devuelva el mensaje: "No se pudo completar la operación: [API que falló]".
 */
+
+/*
+function consultarAPIs() {
+  const usuarios = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("usuarios cargados");
+    }, 2000); // 2 segundos
+  });
+
+  const productos = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("productos cargados");
+    }, 3000); // 3 segundos
+  });
+
+  const ventas = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("ventas cargadas");
+    }, 4000); // 4 segundos
+  });
+
+  Promise.all([usuarios, productos, ventas])
+    .then((resultados) => {
+      console.log("Resultados de todas las consultas:", resultados);
+    })
+    .catch((error) => {
+      console.error("No se pudo completar la operación:", error);
+    });
+}
+
+consultarAPIs();
+*/
+
+
+/*
+.catch((error) => {
+      console.error("No se pudo completar la operación:", error);
+    });
+
+    Si alguna promesa falla (por ejemplo, si usas reject("API de ventas")), se ejecuta este bloque.
+Imprime un mensaje de error con la razón que dio el reject. */
+
+//CON REJECT
+ function consultarAPIs() {
+  const usuarios = new Promise((resolve, reject) => {
+    setTimeout(() => { 
+      reject("API de usuarios"); // <-- para probar fallo
+    }, 2000);
+  });
+
+  const productos = new Promise((resolve, reject) => {
+    setTimeout(() => {
+       reject("API de productos"); // <-- para probar fallo
+    }, 3000);
+  });
+
+  const ventas = new Promise((resolve, reject) => {
+    setTimeout(() => {
+       reject("API de ventas"); // <-- para probar fallo
+    }, 4000);
+  });
+
+  Promise.all([usuarios, productos, ventas])
+    .then((resultados) => {
+      console.log("Resultados de todas las consultas:", resultados);
+    })
+    .catch((error) => {
+      console.error(`No se pudo completar la operación: ${error}`);
+    });
+}
+
+consultarAPIs();
+
+//**Promise.all() se detiene en la primera promesa que falla**, por eso solo ves "API de usuarios", aunque también fallaron las otras. No ejecuta las demás una vez que una falla.
+//Para que todas las promesas se ejecuten aunque algunas fallen, y saber cuáles fallaron y cuáles no, puedes usar el método: Promise.allSettled() 
