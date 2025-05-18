@@ -17,3 +17,26 @@ Este ejercicio es esencial para aprender a manejar errores en operaciones de
 autenticación, simulando problemas comunes que podrías encontrar en
 sistemas de login.
 */
+function autenticar(nombreUsuario){
+ return new Promise ((resolve, reject) => {
+    setTimeout(() => {
+        if (nombreUsuario === null || nombreUsuario === undefined){   //tbn se puede poner asi if (!nombreUsuario)
+            reject ("\nError: nombre de usuario no identificado.") 
+        } else {
+             resolve ("Autenticación exitosa.")
+        }
+    }, 2000)  
+ })
+}
+
+async function iniciarSesion(nombreUsuario){
+    try {
+        const resultado = await autenticar(nombreUsuario);
+        console.log(resultado);
+    } catch (error){
+        console.error("Error de autenticación.", error)
+    }
+}
+
+iniciarSesion("Alina");
+iniciarSesion(null);

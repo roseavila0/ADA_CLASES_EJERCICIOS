@@ -13,5 +13,4 @@ de recuperación enviado a [correo]".
 imprime el mensaje cuando se complete la operación.
 Este ejercicio muestra cómo se manejan operaciones asíncronas en procesos de
 recuperación de contraseñas, una funcionalidad común en aplicaciones web.
-
 */
