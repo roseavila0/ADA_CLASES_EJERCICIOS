@@ -16,3 +16,15 @@ Pistas:
 El método PATCH se utiliza para actualizar parcialmente un recurso. Asegúrate
 de enviar solo los campos que deseas actualizar.
 */
+
+
+
+//RESOLUCION EN POSTMAN
+
+//en postman se pone PATCH Y en body
+/*
+ {
+  "price": 15.99
+}
+*/ 
+//porque es la propiedad que se me pide modiicar del producto que le hemos agregado el id.
