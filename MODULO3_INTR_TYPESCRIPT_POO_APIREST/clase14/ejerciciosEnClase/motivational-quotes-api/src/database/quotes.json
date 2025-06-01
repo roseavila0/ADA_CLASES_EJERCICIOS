@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Quotes Database",
+    "version": "1.0.0",
+    "total": 2
+  },
+  "quotes": [
+    {
+      "text": "Hola chicas",
+      "autor": "Berni",
+      "id": "3"
+    },
+    {
+      "text": "Frase actualizadax1000",
+      "autor": "Roselalala000lalalalla",
+      "id": "4"
+    }
+  ]
+}
