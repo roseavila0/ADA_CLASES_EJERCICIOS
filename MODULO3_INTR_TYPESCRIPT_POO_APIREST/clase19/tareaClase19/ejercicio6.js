@@ -22,6 +22,7 @@ const validateUserData = (req, res, next) => {
     return res.status(400).json({ error: 'El campo "name" es obligatorio y debe ser un texto válido' });
   }
 
+  //Define una expresión regular (regex) que sirve para verificar si el email tiene un formato válido.
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!email || !emailRegex.test(email)) {
     return res.status(400).json({ error: 'El campo "email" debe ser un correo electrónico válido' });
