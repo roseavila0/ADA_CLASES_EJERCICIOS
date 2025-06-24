@@ -34,7 +34,7 @@ const esquemaUsuario = z.object({
 
 app.post('/usuarios', (req, res) => {
     try {
-        const datosValidados = esquemaUsuario.parse(req.body);
+        const datosValidados = esquemaUsuario.parse(req.body);     // parse() valida y lanza errores si algo está mal.
         res.json({ mensaje: 'Usuario válido', datos: datosValidados });
     } catch (error) {
         res.status(400).json(error.errors);

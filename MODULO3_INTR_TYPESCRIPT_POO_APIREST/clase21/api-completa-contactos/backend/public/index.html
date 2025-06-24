@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Declara el tipo de documento como HTML5 y establece el idioma del contenido como inglés -->
+    <meta charset="UTF-8">
+    <!-- Establece la codificación de caracteres como utf-8 para admitir una amplia variedad de símbolos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Permite que el sitio sea responsive, asegurándose que se adapte al ancho del dispositivo -->
+    <title>Agenda de Contactos</title>
+    <!-- El título de la página que aparecerá en la pestaña del navegador -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Incluye una hoja de estilos externa llamada 'style.css' para definir el diseño y estilo -->
+</head>
+<body>
+    <div class="container">
+        <!-- Crea un contenedor principal con la clase 'container' que agrupa el contenido de la página -->
+        <h1>Agenda de contactos</h1>
+        <!-- Muestra un encabezado principal que sirve como título de la página -->
+
+        <form id="contact-form">
+            <!-- Inicia un formulario con el identificador único 'contact-form' para gestionar los contactos -->
+            <input type="text" id="name" placeholder="Nombre" required>
+            <!-- Campo de entrada para el nombre del contacto. Tiene un marcador de posición ('Nombre') y es requerido -->
+            
+            <input type="email" id="email" placeholder="Correo Electrónico" required>
+            <!-- Campo de entrada para el email del contacto. Valida automáticamente que sea un correo válido -->
+
+            <input type="text" id="phone" placeholder="Teléfono" required>
+            <!-- Campo de entrada para el celular. También es obligatorio pero no valida el formato -->
+
+            <button type="submit">Agregar Contacto</button>
+            <!-- Botón que envía los datos del formulario cuando es presionado -->
+        </form>
+
+        <table>
+            <!-- Inicia una tabla que servirá para mostrar los contactos agregados -->
+            <thead>
+                <tr>
+                    <!-- Define el encabezado de la tabla -->
+                    <th>Nombre</th>
+                    <!-- Columna para el nombre del contacto -->
+                    <th>Correo</th>
+                    <!-- Columna para el correo del contacto -->
+                    <th>Teléfono</th>
+                    <!-- Columna para el teléfono del contacto -->
+                    <th>Acciones</th>
+                    <!-- Columna para las acciones (eliminar o editar un contacto) -->
+                </tr>
+            </thead>
+            <tbody id="contacts-table">
+                <!-- Cuerpo de la tabla donde se mostrarán los contactos -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
+
+<!--
+El archivo index.html que compartiste está completo y bien estructurado para lo que busca hacer: una pequeña agenda de contactos.
+
+✅ ¿Qué tiene y qué hace?
+Encabezado (<head>)
+
+Define el idioma, el charset, el viewport para hacerlo responsive.
+
+Incluye el título y un archivo CSS externo (style.css).
+
+Formulario (<form id="contact-form">)
+
+Inputs para: nombre, correo electrónico y teléfono.
+
+Botón para enviar el formulario.
+
+Tabla (<table>)
+
+Cabecera con columnas para: Nombre, Correo, Teléfono, Acciones.
+
+Cuerpo con id="contacts-table" → ahí se insertarán dinámicamente los contactos agregados.
+
+-->
